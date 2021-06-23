@@ -14,6 +14,7 @@ class ImageDataset:
         self,
         image_paths,
         targets,
+        resize,
         augmentations=None,
         backend="pil",
         channel_first=True,
