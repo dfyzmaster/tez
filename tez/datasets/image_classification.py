@@ -27,6 +27,7 @@ class ImageDataset:
         """
         self.image_paths = image_paths
         self.targets = targets
+        self.resize = resize,
         self.augmentations = augmentations
         self.backend = backend
         self.channel_first = channel_first
